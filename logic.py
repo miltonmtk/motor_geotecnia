@@ -74,7 +74,7 @@ with st.container():
         input_data = st.data_editor(
             pd.DataFrame({
                 "Humedad (%)": [10.0, 12.0, 14.0, 16.0],
-                "Densidad Seca (g/cm3)": [1.85, 1.92, 1.88, 1.80]
+                "Densidad Seca (g/cm3)": [1.85, 1.92, 1.90, 1.86]
             }),
             num_rows="dynamic"
         )
